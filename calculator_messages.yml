@@ -1,0 +1,80 @@
+:english: 
+  :welcome:
+    "Welcome to Calculator!  Enter your name:"
+  :hi:
+    "Hi %{name}!  Let's calculate!"
+  :goodbye: 
+    "Thanks for using Calculator, %{name}!"
+  :again?: 
+    "Do you want to perform another calculation? (Y to calculate again)"
+  :enter_number:
+    :request:
+      "What is the %{ordinal} number?"
+    :first: "first"
+    :second:
+      "second"
+  :operator_select: |-
+    What operation would you like to perform?
+         1) add
+         2) subtract 
+         3) multiply
+         4) divide
+  :validation:
+    :name: 
+      "Name cannot be blank!"
+    :number: 
+      "Hmm ... that's not a valid number."
+    :operator: 
+      "Must choose 1, 2, 3, or 4"
+    :division_by_zero:
+      "Cannot choose division with divisor of zero\n
+      Must choose 1, 2, or 3 when 2nd num is zero"
+  :calculation:
+    :alert: "%{calculating} the two numbers ..."
+    :addition: "adding"
+    :subtraction: "subtracting"
+    :multiplication: "multiplying"
+    :division: "dividing"
+    :result: "The result is %{result}" 
+
+:spanish: 
+  :welcome:
+    "¡Bienvenido a Calculadora! Introduzca su nombre:"
+  :hi:
+    "¡Hola %{name} ¡Calculemos!"
+  :again?: 
+    "¿Quieres realizar otro cálculo? (Y para calcular de nuevo)"
+  :goodbye: 
+    "¡Gracias por usar Calculator, %{name}!"
+  :enter_number:
+    :request:
+      "cual es el %{ordinal} numero?"
+    :first:
+      "primero"
+    :second:
+      "segundo"
+  :operator_select: |-
+    ¿Qué operación matemática te gustaría realizar?
+        1) sumar
+        2) sustraer
+        3) multiplicar
+        4) dividir
+  :validation:
+    :name: "¡El nombre no puede estar en blanco!"
+    :number: "Hmm ... ese no es un número válido."
+    :operator: "Debe elegir 1, 2, 3 o 4"
+    :hilarious:
+      :bad: "very"
+    :division_by_zero:
+      "No se puede elegir la división con divisor de cero\n
+      Debe elegir 1, 2 o 3 cuando el segundo número es cero"
+  :calculation:
+    :alert: "%{calculating} los dos números ..."
+    :addition: "sumando"
+    :subtraction: "sustraendo"
+    :multiplication: "multiplicando"
+    :division: "dividando"
+    :result: "El resultado es %{result}"
+  
+  
+  
